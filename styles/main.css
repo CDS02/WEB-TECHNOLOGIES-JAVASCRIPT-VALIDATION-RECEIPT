@@ -1,0 +1,145 @@
+body{
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+header,article{
+    background: linear-gradient(rgba(3, 77, 3,0.8),rgba(129, 129, 5,0.8));
+}
+h1{
+    text-align: left;
+}
+#stp1,#stp2{
+border-width: 2%;
+width: 70%;
+margin-left: 15%;
+box-sizing: border-box;
+border-style: solid;
+}
+#stp2{
+    text-align: center;
+    background: white;
+    color: black;
+}
+#stp1 input{
+    padding: 0%;
+    margin: 2%;
+}
+#himg{
+    width: 50vw;
+    display: inline-block;
+    float: right;
+}
+footer{
+    margin-top: 7%;
+}
+#hpara{
+    display: inline-block;
+    width: 40vw;
+}
+h1{
+    font-size: 50px;
+}
+header{
+    height: 70vh;
+}
+#stp1 label{
+    margin-left: 2%;
+}
+.cos{
+    display: none;
+}
+#yr{
+    margin-left: 50px;
+}
+#pri ul{
+    list-style-type:none;
+    padding: auto;
+}
+#pri ul li {
+    display: inline-block;
+    width:30vw;
+    height: 50%;
+    box-shadow: 0px 10px 20px 2px /*rgba(0,255,255,0.7)*/grey;
+    background: linear-gradient(rgba(53, 250, 53,0.5),rgba(253, 253, 48,0.6));
+    vertical-align: middle;
+    margin-top: 5%;
+}
+#pri ul li img{
+    width: 100%;
+    height: 40vh;
+}
+.frl{
+    display: none;
+}
+table{
+    width: 75vw;
+}
+tr{
+    background: linear-gradient(rgba(214, 214, 190, 0.267),rgba(218, 223, 218, 0.308));
+}
+#pri ul li div{
+    border-style: solid;
+    text-align: center;
+    padding: 0% 0 5% 0;
+}
+#pri{
+    text-align: center;
+}
+#buy{
+    border-radius: 10%;
+    width: 70%;
+    border-style: outset;
+    height:50px;
+    background: rgb(85, 245, 36);
+    color: beige;
+}
+#buy:hover{
+    background: rgba(85, 245, 36, 0.438);
+}
+
+.chtab{
+    text-align: center;
+    width:80vw;
+    margin-left: 10%;
+    margin-top: 15%;
+    font-size: larger;
+}
+th{
+    font-size: 115%;
+}
+
+
+#credits h1{
+    font-size: 200%;
+    color: white;
+    margin-left: 2%;
+    float: left;
+}
+#credits img{
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    float:left;
+    margin-left: 40%;
+}
+#credits h3{
+    margin-left: 40%;
+    /*background-color: #f0f;
+    */
+    width:30%;
+    
+}
+#credits ul{
+    list-style: none;
+    width:40%;
+    box-shadow: 0px 10px 20px 2px /*rgba(0,255,255,0.7)*/grey;
+font-size: 110%;
+}
+
+button{
+    font-size: 115%;
+    text-align: center;
+}
